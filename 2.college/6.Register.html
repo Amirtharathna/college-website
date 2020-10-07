@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        Register
+    </title>
+</head>
+
+<body>
+    <center><h1><b><i><u>ABC COLLEGE OF ENGINEERING AND TECHNOLOGY </u></i></b></h1><br><br>
+<hr>
+<h2><a href="1.Home.html" target="_self">Home</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="2.Courses Offered.html"
+    target="_blank">Courses Offered</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="3.Placements.html"
+    target="_blank">Placements</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="4.Gallery.html"
+    target="_blank">Gallery</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="5.Contact.html"
+    target="_blank">Contact</a></h2>
+    <hr>
+<br>
+    <p>
+        <h3><b><i><u>STUDENT DATA</u></i></b></h3>
+    </p>
+    <br>
+    <br>
+    <form>
+        <label for="Name">Student Name</label>
+        <input type="text" id="Name" placeholder="enter student name">
+        <br>
+        <br>
+        <label for="reg. no.">Reg. No.</label>
+        <input type="number" name="reg. no." id="reg. no." placeholder="enter register no.">
+        <br>
+        <br>
+        <label for="dob">Date of Birth</label>
+        <!-- <input type="month" name="dob" id="DOB">-->
+        <input type="date" name="DOB" id="dob">
+        <br>
+        <br>
+        <label for="gender">Gender</label>
+        <input type="radio" name="gender">Male
+        <input type="radio" name="gender">Female
+        <br>
+        <br>
+        <label for="address">Address</label>
+        <textarea name="address" id="address" cols="30" rows="10"></textarea>
+        <br>
+        <br>
+        <label for="city">City</label>
+        <input type="text" id="city" name="city" placeholder="enter the city" list="list">
+        <datalist id="list">
+            <option>Cuddalore</option>
+            <option>chennai</option>
+            <option>trichy</option>
+            <option>coimbatore</option>
+            <option>salem</option>
+            <option>madurai</option>
+            <option>vellore</option>
+            <option>thanjavur</option>
+            <option>nagapattinam</option>
+            <option>villupuram</option>
+            <option>kancheepuram</option>
+            <option>karur</option>
+            <option>kanniyakumari</option>
+        </datalist>
+        <br>
+        <br>
+
+        <label for="state">State</label>
+        <!--<input type="text" id="state" name="state" placeholder="enter the state" list="list1">
+<datalist id="list1">-->
+        <select name="state" id="state">
+            <option>Tamilnadu</option>
+            <option>Kerela</option>
+            <option>Karnataka</option>
+        </select>
+        <br>
+        <br>
+        <label for="email">email</label>
+        <input type="email" name="email" id="email">
+        <br>
+        <br>
+        <label for="file">Photo</label>
+        <input type="file" name="Photo" id="file">
+        <br>
+        
+        <br>
+        <!--<label for="search">search</label>
+   <input type="search" name="search" id="search">-->
+   <label for="Enter Password">Enter Password</label>
+   <input type="password" name="Enter Password" id="Enter Password" placeholder="password">
+   <br><br>
+   <label for="Confirm Password">Confirm Password</label>
+   <input type="password" name="Confirm Password" id="Confirm Password" placeholder="password">
+   <br><br> <input type="checkbox" name="accept" id="accept">
+   <label for="accept">Accept the terms and conditions</label>
+   <br><br>
+        <label for="submit"></label>
+        <input type="button" value="Submit">
+        <label for="close"></label>
+        <input type="reset" value="Delete">
+<br>
+    </form>
+</body>
+
+</html>
